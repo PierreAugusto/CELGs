@@ -1,3 +1,5 @@
+## Abstract: 
+We propose 4MOST/LRS observations of 523 compact emission-line galaxies (CELGs), local analogues of high-z star-forming systems that are systematically missed by spectroscopic surveys due to their star-like morphology. Our candidates are selected from S-PLUS imaging, using their strong [OIII] emission at z≈0.3 to overcome this selection bias. This program will build the first large, spectroscopically-confirmed catalogue of this unexplored population. Our primary goals are to: (1) secure definitive redshifts; (2) characterize ionization sources and levels using key diagnostic lines ; and (3) determine physical properties, including SFRs, gas-phase metallicities, and stellar masses, to probe the drivers of compact starbursts and their evolutionary role across cosmic time.
 # README: CELGs Target Catalog for 4MOST
 
 ## Dataset Description
