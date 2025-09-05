@@ -64,19 +64,17 @@ The CELG candidates in this catalog were selected from the Southern Photometric 
 
 The process was validated through pilot spectroscopy with Gemini/GMOS, confirming the observed candidates as compact star-forming galaxies at the expected redshift. This demonstrates the robustness and homogeneity of the final sample of 523 candidates included in this catalog.
 
-```markdown
-## Figures
+
+### Figures
 
 ### Spatial Distribution of CELG Candidates
 
-![Spatial distribution of compact emission line galaxy candidates identified in the S-PLUS DR4 survey. The figure shows the density of objects in right ascension (RA) and declination (DEC), with blue dots marking the positions of all 523 emission line candidates. The galactic plane is indicated by a red dashed line, and the Galactic center is marked in red. This distribution illustrates the wide coverage and dispersion of our sample across the S-PLUS footprint.](/Images/combined_halpha_distribution_compact.png)
+![Spatial distribution of compact emission line galaxy candidates identified in the S-PLUS DR4 survey. The figure shows the density of objects in right ascension (RA) and declination (DEC), with blue dots marking the positions of all 523 emission line candidates. The galactic plane is indicated by a red dashed line, and the Galactic center is marked in red. This distribution illustrates the wide coverage and dispersion of our sample across the S-PLUS footprint.](/Images//combined_halpha_distribution_compact.png)
 
 ### R-Band Magnitude Distribution
 
 ![R-band magnitude distribution of the sample, marked by magnitude bin used for exposure-time allocation. The three bins and their sample sizes are: Bright ($r<19.0$; $N=12$), Intermediate ($19.0\leq r<20.0$; $N=181$), Faint ($20.0\leq r\leq20.5$; $N=330$). Vertical lines indicate representative central values for each bin. These counts were used to compute the total requested fiber‑hours (see main text).](/Images/magnitude_distributions_overplotted.png)
 
-### Example Galaxies with Gemini Spectroscopy
+### Example Galaxies with Gemini Spectroscopy and S-PLUS photometry
 
 ![Examples of three galaxies selected for the sample, for which recently we obtained Gemini spectroscopy. The left panel shows the RGB Legacy image composed of the $g$, $r$, and $i$ bands; the middle panel displays the photometric points (x-axis: central wavelength of each filter; y-axis: magnitude) with the (rough preliminary flux-calibrated) spectrum overplotted, illustrating how the emission lines fall into the H$\alpha$ filter---for objects at $z\approx0.3$ this is primarily [O\,III]. The right panel highlights a zoom on the H$\beta$ and [O\,III] lines, correctly labeled and shifted to the observed frame.](/Images/ex_photo_spec_mags_halpha_candidate5_zoom.png)
-```
-
