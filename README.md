@@ -64,6 +64,7 @@ The CELG candidates in this catalog were selected from the Southern Photometric 
 
 The process was validated through pilot spectroscopy with Gemini/GMOS, confirming the observed candidates as compact star-forming galaxies at the expected redshift. This demonstrates the robustness and homogeneity of the final sample of 523 candidates included in this catalog.
 
+```markdown
 ## Figures
 
 ### Spatial Distribution of CELG Candidates
