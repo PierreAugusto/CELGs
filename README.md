@@ -4,7 +4,7 @@ We propose 4MOST/LRS observations of 523 compact emission-line galaxies (CELGs),
 
 ## Dataset Description
 
-This dataset contains astronomical targets selected for observation with the 4MOST spectrograph (4-metre Multi-Object Spectroscopic Telescope). The file [`4MOST_targets_CELGs.fits`](4MOST_targets_CELGs.fits) includes a compilation of 523 candidate Compact Elliptical Galaxies (CELGs) with their celestial coordinates, magnitudes, and other properties relevant for spectroscopic observations.
+This dataset contains astronomical targets selected for observation with the 4MOST spectrograph (4-metre Multi-Object Spectroscopic Telescope). The file [`4MOST_targets_CELGs.fits`](4MOST_targets_CELGs.fits) includes a compilation of 523 candidate Compact Emission line Galaxies (CELGs) with their celestial coordinates, magnitudes, and other properties relevant for spectroscopic observations.
 
 ## FITS File Structure
 
