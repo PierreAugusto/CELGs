@@ -1,10 +1,10 @@
 ## Abstract: 
-We propose 4MOST/LRS observations of 523 compact emission-line galaxies (CELGs), local analogues of high-z star-forming systems that are systematically missed by spectroscopic surveys due to their star-like morphology. Our candidates are selected from S-PLUS imaging, using their strong [OIII] emission at z≈0.3 to overcome this selection bias. This program will build the first large, spectroscopically-confirmed catalogue of this unexplored population. Our primary goals are to: (1) secure definitive redshifts; (2) characterize ionization sources and levels using key diagnostic lines ; and (3) determine physical properties, including SFRs, gas-phase metallicities, and stellar masses, to probe the drivers of compact starbursts and their evolutionary role across cosmic time.
+We propose 4MOST/LRS observations of 516 compact emission-line galaxies (CELGs), local analogues of high-z star-forming systems that are systematically missed by spectroscopic surveys due to their star-like morphology. Our candidates are selected from S-PLUS imaging, using their strong [OIII] emission at z≈0.3 to overcome this selection bias. This program will build the first large, spectroscopically-confirmed catalogue of this unexplored population. Our primary goals are to: (1) secure definitive redshifts; (2) characterize ionization sources and levels using key diagnostic lines ; and (3) determine physical properties, including SFRs, gas-phase metallicities, and stellar masses, to probe the drivers of compact starbursts and their evolutionary role across cosmic time.
 # README: CELGs Target Catalog for 4MOST
 
 ## Dataset Description
 
-This dataset contains astronomical targets selected for observation with the 4MOST spectrograph (4-metre Multi-Object Spectroscopic Telescope). The file [`4MOST_targets_CELGs.fits`](4MOST_targets_CELGs.fits) includes a compilation of 523 candidate Compact Emission line Galaxies (CELGs) with their celestial coordinates, magnitudes, and other properties relevant for spectroscopic observations.
+This dataset contains astronomical targets selected for observation with the 4MOST spectrograph (4-metre Multi-Object Spectroscopic Telescope). The file [`4MOST_targets_CELGs.fits`](4MOST_targets_CELGs.fits) includes a compilation of 516 candidate Compact Emission line Galaxies (CELGs) with their celestial coordinates, magnitudes, and other properties relevant for spectroscopic observations.
 
 ## FITS File Structure
 
@@ -62,14 +62,14 @@ The CELG candidates in this catalog were selected from the Southern Photometric 
 - Magnitude range $15 < r < 20.5$ and high-quality photometry ($\mathrm{SEX\_FLAGS} \leq 3$).
 - Removal of artifacts and objects contaminated by nearby sources using aperture photometry.
 
-The process was validated through pilot spectroscopy with Gemini/GMOS, confirming the observed candidates as compact star-forming galaxies at the expected redshift. This demonstrates the robustness and homogeneity of the final sample of 523 candidates included in this catalog.
+The process was validated through pilot spectroscopy with Gemini/GMOS, confirming the observed candidates as compact star-forming galaxies at the expected redshift. This demonstrates the robustness and homogeneity of the final sample of 516 candidates included in this catalog.
 
 
 ### Figures
 
 ### Spatial Distribution of CELG Candidates
 
-![Spatial distribution of compact emission line galaxy candidates identified in the S-PLUS DR4 survey. The figure shows the density of objects in right ascension (RA) and declination (DEC), with blue dots marking the positions of all 523 emission line candidates. The galactic plane is indicated by a red dashed line, and the Galactic center is marked in red. This distribution illustrates the wide coverage and dispersion of our sample across the S-PLUS footprint.](/Images//combined_halpha_distribution_compact.png)
+![Spatial distribution of compact emission line galaxy candidates identified in the S-PLUS DR4 survey. The figure shows the density of objects in right ascension (RA) and declination (DEC), with blue dots marking the positions of all 516 emission line candidates. The galactic plane is indicated by a red dashed line, and the Galactic center is marked in red. This distribution illustrates the wide coverage and dispersion of our sample across the S-PLUS footprint.](/Images//combined_halpha_distribution_compact.png)
 
 ### R-Band Magnitude Distribution
 
