@@ -1,0 +1,164 @@
+==================================================
+SURVEY CATALOGUE DESCRIPTION
+
+-----------------------------------------------------------------------
+
+Survey: S-PLUS Compact Emission-Line Galaxies (CELGs)
+
+This Supplementary Target catalogue for the 4MOST survey aims to spectroscopically observe Compact Emission-Line Galaxies (CELGs) identified from the Southern Photometric Local Universe Survey (S-PLUS). CELGs are characterized by compact morphology and strong emission lines, making them excellent laboratories for studying star formation processes, AGN activity, and galaxy evolution in the local universe. The selected targets represent a homogeneous sample of emission-line galaxies with photometric redshift estimates in the range z ~ 0.25-0.35, providing an opportunity to study the physical properties and environmental effects on these systems through spectroscopic observations with 4MOST's low-resolution spectrograph.
+
+There are no subsurveys.
+
+
+========================================================================
+PLEASE FILL OUT THE FORM BELOW AND ANSWER THE FOLLOWING QUESTIONS FOR
+EACH SUB SURVEY CUTTING AND PASTING THE FORM AND QUESTIONS FOR EACH
+SUB SURVEY, INCREMENTING THE SECTION NUMBER BY 1 FOR EACH SUB SURVEY
+========================================================================
+
+1. Sub-survey overview
+
+Sub-survey title: S-PLUS Compact Emission-Line Galaxies
+Contact person: Pierre Augusto Ré Martho
+Contact email address: pierre@usp.br
+Brief science goal description: Spectroscopic characterization of compact emission-line galaxies from S-PLUS to study star formation, AGN activity, and galaxy evolution in the local universe (z ~ 0.25-0.35).
+
+------------------------------------------------------------------------
+1.1 Source of target catalogue selection
+
+Targets are selected from the Southern Photometric Local Universe Survey (S-PLUS), which provides multi-band photometry including narrow-band filters sensitive to emission lines. The parent catalogue is cross-matched with Gaia DR3 for proper astrometric information (coordinates, proper motions, and parallaxes).
+
+------------------------------------------------------------------------
+1.2 Target selection overview:
+
+The target selection identifies 516 Compact Emission-Line Galaxies (CELGs) based on the following criteria:
+
+* Photometric identification of emission-line galaxies using S-PLUS narrow-band filters
+* Compact morphology consistent with CELGs classification
+* Photometric redshift range: 0.25 < z_phot < 0.35
+* Magnitude range: 19.3 < G_mag < 22.0 (Gaia G-band)
+* Sky coverage: –80° < Dec < +5° (Southern hemisphere)
+* Full sky RA coverage: 1.6° < RA < 359.3°
+
+All targets are classified as galaxies (CLASSIFICATION = 'GAL') and will be observed with the Low-Resolution Spectrograph (LRS, R~5000) to obtain emission-line diagnostics including [OII], Hβ, [OIII], Hα, [NII], and [SII] lines.
+
+The targets are matched with Gaia DR3 to:
+* Ensure proper astrometric accuracy
+* Exclude stellar contaminants using proper motion and parallax information
+* Provide epoch 2016.0 coordinates with proper motion corrections
+
+Target selection criteria:
+1. Strong emission-line candidates from S-PLUS photometry
+2. Compact galaxy morphology (CELG characteristics)
+3. Cross-match with Gaia DR3 for astrometry (within 1 arcsec)
+4. No significant proper motion (stellar contamination check)
+5. Photometric redshift in the target range
+
+------------------------------------------------------------------------
+1.3 Target coordinates, proper motion, and parallaxes
+
+Coordinates: J2000 equatorial coordinates (RA, DEC) from Gaia DR3
+Epoch: 2016.0
+Proper motions: PMRA and PMDEC from Gaia DR3 (in mas/yr)
+Parallaxes: From Gaia DR3 (in mas)
+
+The astrometric information is used to ensure accurate fiber positioning and to verify that targets are extragalactic (negligible proper motion and parallax consistent with distant objects).
+
+------------------------------------------------------------------------
+1.4 Target photometry
+
+MAG: Gaia G-band magnitude (Vega system)
+MAG_ERR: 0.01 mag (typical Gaia photometric uncertainty)
+MAG_TYPE: Gaia_G_Vega
+
+Calibration magnitudes:
+* CAL_MAG_BLUE: Gaia BP magnitude (GAIA_GBP_VEGA_PSF)
+* CAL_MAG_GREEN: Gaia G magnitude (GAIA_G_VEGA_PSF)
+* CAL_MAG_RED: Gaia RP magnitude (GAIA_GRP_VEGA_PSF)
+* CAL_MAG_ERR: 0.01 mag for all bands
+
+All photometry is from Gaia DR3, ensuring homogeneous and well-calibrated measurements across the entire sample.
+
+------------------------------------------------------------------------
+1.5 Redshifts
+
+REDSHIFT_ESTIMATE: Photometric redshift from S-PLUS multi-band photometry
+Redshift range: 0.25 < z_phot < 0.35
+REDSHIFT_ERROR: Photometric redshift uncertainty (typical σ_z ~ 0.02-0.05)
+
+The spectroscopic observations will provide accurate spectroscopic redshifts and validate the photometric redshift estimates from S-PLUS.
+
+------------------------------------------------------------------------
+1.6 Reddening
+
+REDDENING: Galactic extinction correction applied based on dust maps
+The reddening corrections are relatively small for most targets as they are selected to avoid high-extinction regions.
+
+------------------------------------------------------------------------
+1.7 Spectral templates
+
+Not applicable.
+
+------------------------------------------------------------------------
+1.8. Known connections to other sub-surveys
+
+This survey is independent but complements:
+* S18 (4MOST Hemisphere Survey) - provides wider context for galaxy evolution studies
+* S-PLUS photometric survey (parent sample)
+
+
+------------------------------------------------------------------------
+1.9. Any additional information
+
+Scientific motivation:
+Compact Emission-Line Galaxies represent an important population for understanding galaxy evolution, as they may represent:
+1. Starburst galaxies in active star formation phase
+2. Green pea analogs at intermediate redshift
+3. Low-mass AGN hosts
+4. Systems undergoing transformation processes
+
+The spectroscopic observations will:
+* Confirm photometric redshifts
+* Classify ionization mechanisms (SF vs. AGN)
+* Measure gas-phase metallicities
+* Determine star formation rates
+* Study the physical conditions in compact star-forming systems
+
+Sample characteristics:
+* Total targets: 516
+* Resolution: Low-Resolution Spectrograph (LRS, RESOLUTION=1)
+
+
+==================================================
+Target-selection code:
+
+The target selection was performed using S-PLUS photometric data and Gaia DR3 astrometry. The main selection steps include:
+
+1. Selection of emission-line galaxy candidates from S-PLUS narrow-band photometry
+2. Application of compact morphology criteria (CELG selection)
+3. Photometric redshift cut: 0.25 < z_phot < 0.35
+4. Magnitude selection: 19.3 < G_mag < 22.0
+5. Cross-match with Gaia DR3 (1 arcsec radius)
+6. Stellar contamination removal using proper motion and parallax
+7. Quality cuts on photometric measurements
+
+
+==================================================
+Self-Shared Targets
+
+There are no self-shared targets (closer than 1 arcsec) in the input catalogue. Each target is unique with no duplicate entries.
+
+==================================================
+Astrometric Verification
+
+We are using the same astrometry as the main S18 (4HS) survey.
+==================================================
+Additional Technical Information
+
+Catalogue format:
+* FMTVERS: 2.6
+* FMTDOC: VIS-MAN-4MOST-47110-1720-0001
+* Total rows: 516
+* Total columns: 35
+
+SUBSURVEY: SPLUS_CELGs
